@@ -19,3 +19,17 @@ models:
             tests:
                 - unique
                 - not_null
+     
+    - name: model1
+      description: "A demo dbt model"
+      columns:
+          - name: SNAP_SK
+            description: "The primary key for this table"
+          - name: PROD_CD
+            description: "The primary key for this table"
+          - name: TOT_AMT
+            description: "The primary key for this table"
+          - name: AS_OF_DATE
+            description: "The primary key for this table"
+          - name: ETL_GMTS
+            description: "The primary key for this table"
