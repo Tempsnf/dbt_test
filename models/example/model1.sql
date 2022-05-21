@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select * from CORE.LIFE_RISK_SNAP;
+    select * from CORE.LIFE_RISK_SNAP
 )
 
 select *
